@@ -2,7 +2,7 @@
 Mostly R code files for my posts on www.returnandrisk.com.
 
 # License
-Copyright (C) 2014-2015   Peter Chan (peter-at-return-and-risk-dot-com)
+Copyright (C) 2014-2015 &nbsp;Peter Chan (peter-at-return-and-risk-dot-com)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
