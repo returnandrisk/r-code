@@ -36,6 +36,7 @@ library(pwr)
 ################################################################################
 # download csv file of FOMC announcement dates from previous post into working 
 # directory, and read into R
+library("curl")
 download.file("https://docs.google.com/uc?export=download&id=0B4oNodML7SgSMlZxYW4yWTZabGs",
               "fomcdatesall.csv")
 fomcdatesall <- read.csv("fomcdatesall.csv", colClasses = c(rep("Date", 2),

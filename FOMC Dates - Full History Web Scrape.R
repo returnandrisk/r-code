@@ -26,7 +26,7 @@ library(XML)
 source("FOMC Dates Functions.R")
 
 # extract data from web pages and parse dates
-fomcdatespre2009 <- get.fomc.dates.pre.2009(1936, 2008)
+fomcdatespre2009 <- get.fomc.dates.pre.2009(1936, 2009)
 fomcdatesfrom2009 <- get.fomc.dates.from.2009()
 
 # combine datasets and order chronologically
@@ -40,5 +40,6 @@ write.csv(fomcdatesall, "fomcdatesall.csv", row.names = FALSE)
 
 # check results
 head(fomcdatesall)
+tail(fomcdatesall, 100)
 
 
