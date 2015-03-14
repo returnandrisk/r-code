@@ -38,6 +38,9 @@ library(pwr)
 # directory, and read into R
 download.file("https://docs.google.com/uc?export=download&id=0B4oNodML7SgSMlZxYW4yWTZabGs",
               "fomcdatesall.csv")
++# for apple mac users, uncomment the following 2 lines and use them to download the file
++# download.file("https://docs.google.com/uc?export=download&id=0B4oNodML7SgSMlZxYW4yWTZabGs",
++#              "fomcdatesall.csv", method = "curl")
 fomcdatesall <- read.csv("fomcdatesall.csv", colClasses = c(rep("Date", 2),
                                                             rep("numeric", 2), rep("character", 2)), stringsAsFactors = FALSE)
 # get S&P500 ETF prices
