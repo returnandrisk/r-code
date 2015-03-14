@@ -1,7 +1,7 @@
 ################################################################################
 # FOMC Cycle Trading Strategy in QuantStrat
 # R code for 14 March 2015 post on www.returnandrisk.com:
-# http://www.returnandrisk.com/2014/11/scraping-data-from-web-pages-fomc-dates.html
+# http://www.returnandrisk.com/2015/03/fomc-cycle-trading-strategy-in.html
 # Copyright (C) 2015  Peter Chan (peter-at-return-and-risk-dot-com)
 #
 # This program is free software: you can redistribute it and/or modify
