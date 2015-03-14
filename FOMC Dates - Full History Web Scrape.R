@@ -26,11 +26,8 @@ library(XML)
 source("FOMC Dates Functions.R")
 
 # extract data from web pages and parse dates
-<<<<<<< HEAD
-fomcdatespre2009 <- get.fomc.dates.pre.2009(1936, 2009)
-=======
+
 fomcdatespre2009 <- get.fomc.dates.pre.2009(1936, 2009) # need to manually update second year when the Fed archives it
->>>>>>> 9358515cf2873d924da592421d65d0d57037fae7
 fomcdatesfrom2009 <- get.fomc.dates.from.2009()
 
 # combine datasets and order chronologically
