@@ -1,7 +1,7 @@
 ################################################################################
 # Modeling Interest Rates Meucci Style
 # R code for 24 June 2015 post on www.returnandrisk.com:
-# http://www.returnandrisk.com/2015/03/fomc-cycle-trading-strategy-in.html
+# http://www.returnandrisk.com/2015/06/modeling-interest-rates-meucci-style.html
 # Copyright (C) 2015  Peter Chan (peter-at-return-and-risk-dot-com)
 #
 # This program is free software: you can redistribute it and/or modify
